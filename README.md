@@ -2,13 +2,18 @@
 
 - composer install
 - Создавть файл .env и скопировать параметры из .env.example
-- npm i && npm run dev
+
+И в .env добавить 
+- MAILCHIMP_APIKEY - api ключ mailchimp
+- MAILCHIMP_LIST_ID - ключ листа подписчиков
+ 
 
 
 ##Ввод начальных данных 
 
 - php artisan migrate
 - php artisan db:seed
+
 
 ##Команды
 
