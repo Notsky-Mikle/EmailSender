@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/subscribers/index', 'SubscribersController@index')->name('new-subscriber.index');
+Route::post('/subscribers/create', 'SubscribersController@create')->name('new-subscriber.create');

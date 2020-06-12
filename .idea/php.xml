@@ -102,6 +102,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/drewm/mailchimp-api" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-newsletter" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
